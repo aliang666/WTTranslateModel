@@ -16,6 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navBar.hidden = YES;
+    self.navBar.leftItemList = [NSArray array];
+    [self setControllerTitle];
+}
+
+- (void)setControllerTitle {
+    self.navBar.title = [[WTLanguageUtil shareInstance] valueForKey:@"translate_title"];
 }
 @end
