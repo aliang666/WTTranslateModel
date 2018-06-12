@@ -8,6 +8,6 @@
 
 #import "WTBaseCore.h"
 
-@interface WTTranslateViewController : WTViewController
+@interface WTTranslateViewController : WTFormViewController
 
 @end
